@@ -6,7 +6,7 @@
         {
             Snake snake = new Snake();
             //Console.WriteLine("get number After Dice Roll is {0}",snake.DiceRoll()); 
-            snake.CheckforOption();
+            snake.Play();
         }
     }
 }
