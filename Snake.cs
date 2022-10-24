@@ -31,6 +31,10 @@ namespace SnakeAndLadder
                         break;
                     case Ladder:
                         PlayerPosition += DiceRoll();
+                        if (PlayerPosition > 100)
+                        {
+                            PlayerPosition -= DiceRoll();
+                        }
                         break;
                     case Snakee:
                         PlayerPosition -= DiceRoll();
