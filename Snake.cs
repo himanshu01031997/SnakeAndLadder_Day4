@@ -10,5 +10,13 @@ namespace SnakeAndLadder
     {
         public int initialPosition = 0;
 
+        public int DiceRoll()
+        {
+            Random random = new Random();
+            int Dicecount= random.Next(0,7);
+            return Dicecount;
+
+        }
+
     }
 }
